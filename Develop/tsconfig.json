@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Emit modern JS with native ESM imports/exports */
+    "target": "ES2020",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    /* Keep your source layout and emit into dist/ */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* Safety and interop */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmitOnError": true,
+
+    /* Optional extra checks */
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
